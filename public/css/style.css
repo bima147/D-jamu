@@ -1,0 +1,269 @@
+* {
+    font-family: 'source sans pro';
+    padding: 0;
+}
+.header {
+    background-image: url(../image/shape2.png);
+    background-size: 103vh;
+    background-repeat:no-repeat ;
+    background-position: top right;
+}
+/* .carousel {
+    width: 100%;
+    height: 100%;
+} */
+.carousel-item{
+    height: 88vh;
+    background-size: cover;
+}
+.hal1 img {
+    width: 35%;
+    display: inline-block;
+    margin: -37% 0 10% 50%;
+    /* background-color: #e2593e; */
+}
+.carousel-item h1 {
+    font-family: "playfair display";
+    font-weight: bold;
+    font-size: 75px;
+    /* background-color: aquamarine; */
+}
+.carousel-item p {
+    font-size: 15px;
+}
+.btn2{
+    margin-top: 5%;
+}
+.btn2:hover{
+    color: #662D21;
+    background-color: transparent;
+    border: solid 1px #662D21;
+    transition: 0.7s ease;
+}
+.btn {
+    font-family: 'source sans pro';
+    font-weight: 900;
+    color: #662D21;
+    background-color: #F9C600;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 3px 23px;
+}
+.btn:hover {
+    color: #F9C600;
+    background-color: transparent;
+    border: solid 1px #F9C600;
+    transition: 0.7s ease;
+}
+.caption {
+    width: 30%;
+    margin: 5% 15%;
+    /* background-color: aqua; */
+}
+.carousel-caption {
+    margin: 25% 5%;
+}
+
+.about {
+    background-color: #ffeabd;
+    height: 100vh;
+}
+.about .container .judul {
+    margin-top: 6%; 
+    margin-bottom: 3%;
+}
+.produk {
+    background-color: white;
+}
+.produk .container .row .col {
+    margin-top: 9%;
+}
+.produk .container .row .col h1 {
+    font-family: playfair display; 
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    div.hal1 {
+        display: none;
+    }
+    .caption{
+        text-align: center;
+        margin: 15% 25%;
+        width: 50%;
+        color: #ffeabd;
+        /* background-color: slateblue; */
+    }
+    .caption h1 {
+        font-size: 50px;
+        text-shadow: 1px 1px 2px rgb(73, 73, 73);
+    }
+    .caption p {
+        color: seashell;
+    }
+    .container .judul p {
+        font-size: 20px;
+        /* background-color: slateblue; */
+    }
+    .container .judul h1 {
+        font-size: 40px;
+    }
+    .isi .col img {
+        width: 70%;
+        margin: 0 14%;
+    }
+    .isi .col p {
+        font-size: 20px;
+        margin: 5%;
+        /* background-color: slategrey; */
+        text-align: center;
+    }
+    .isi {
+        display: inherit;
+    }
+    .komen .col img {
+        text-align: center;
+    }
+    .komen .col p {
+        font-size: 20px;
+        margin: 5%;
+        /* background-color: slategrey; */
+        text-align: center;
+    }
+
+    .komen .col h4 {
+        font-size: 20px;
+        /* margin: 5%; */
+        /* background-color: slategrey; */
+        text-align: center;
+    }
+    .komen {
+        display: inherit;
+    }
+}
+.komen p {
+    font-size: 18px;
+    margin-right: 15%;
+    text-align: start;
+    /* margin: -10% 0 15% 0; */
+    /* background-color: orange; */
+}
+.tulisan h4{
+    margin: 0;
+    font-size: 18px;
+    /* margin-right: 15%; */
+    text-align: start;
+    /* background-color: orangered; */
+}
+.tulisan .fa-star {
+    text-align: start;
+    justify-content: start;
+    margin: 5% 0 0 0;
+    /* background-color: orchid; */
+}
+.komen .col img{
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* margin-right: 50px; */
+    text-align: end;
+}
+.checked {
+    color: orange;
+}
+.isi p {
+    font-size: 25px;
+}
+.isi img{
+    width: 80%;
+    /* margin-right: 50px; */
+}
+.judul p {
+    font-size: 25px;
+}
+.judul h1 {
+    font-family: playfair display; 
+    font-weight: bolder; 
+    font-size: 50px;
+}
+.navbar {
+    background: transparent !important;
+    transition: 0.75s ease;
+}
+.navbar-brand{
+    width: 7%;
+    /* background-color: lawngreen; */
+}
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
+.bg-white {
+    background: #fff !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    transition: 0.7s ease;
+    /* background-color: black; */
+}
+.navbar-nav .nav-item .active {
+    color:#F9C600;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #F9C600;
+}
+.bg-white .nav-item .nav-link {
+    color: #000;
+}
+/* review judul*/
+.katanya h3{
+    font-family: 'playfair display';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgb(185, 185, 185);
+}
+.card:hover {
+  box-shadow: 1px 1px 10px rgb(146, 146, 146);
+  transition: 0.7s ease;
+  transform: scale(1.05, 1.05);
+}
+.card-img-top {
+  object-fit: scale-down;
+  width: 100%;
+  height: 200px;
+}
+.card-body {
+    color: black;
+    /* background-color: blanchedalmond; */
+    height: fit-content;
+    border-radius: 0 0 10px 10px;
+}
+.card-body h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-body p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .card-body p{
+      font-size: 15px;
+  }
+  .card-body h5{
+      font-size: 15px;
+  }
+/* review  yang carousel dari baris ke 105*/

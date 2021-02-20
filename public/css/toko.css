@@ -1,0 +1,322 @@
+* {
+    font-family: 'source sans pro';
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(../image/shopbg.png);
+}
+.btn {
+    font-family: 'source sans pro';
+    font-weight: 900;
+    color: #662D21;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 3px 23px;
+    border: solid 2px #662D21;
+}
+.btn:hover {
+    color: #F9C600;
+    background-color: #662D21;
+    transition: 0.7s ease;
+}
+.btn2 {
+    font-family: 'source sans pro';
+    font-weight: 900;
+    color: #662D21;
+    background-color: #F9C600;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px 23px;
+    border: solid 2px #F9C600;
+}
+.btn2:hover {
+    color: #F9C600;
+    background-color: #662D21;
+    transition: 0.7s ease;
+    border: solid 2px #662D21;
+}
+.navbar {
+    background: transparent !important;
+    transition: 0.75s ease;
+}
+.navbar-brand{
+    width: 7%;
+    /* background-color: lawngreen; */
+}
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
+.bg-white {
+    background: #fff !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #662D21;
+    transition: 0.7s ease;
+    /* background-color: black; */
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #F9C600;
+}
+   /* keranjang */
+  .notification {
+      position: relative;
+      color: #662D21;
+  }
+
+  .notification .badge {
+    position: absolute;
+    top: -60%;
+    right: -30%;
+    margin: 0;
+    padding: 3px 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 10px;
+  }
+  .notificationafter {
+    position: relative;
+    color: #662D21;
+    /* background-color: blanchedalmond; */
+}
+.notificationafter:hover {
+    color: #662D21;
+}
+.notificationafter .badge {
+  position: absolute;
+  top: -60%;
+  right: -30%;
+  margin: 0;
+  padding: 3px 5px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 10px;
+}
+/* keranjang yg responsive */
+    /* .notification1 {
+    position: relative;
+    color: #662D21;
+    margin: 0 100px;
+}
+
+.notification1 .badge {
+  position: absolute;
+  top: 3%;
+  right: -30%;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 10px;
+} */
+/* keranjang */
+
+  /* @media (min-width:991px) {
+      .notification1 {
+          display: none;
+      }
+  } */
+  .toko {
+    margin-right: -70%; 
+    font-family: 'playfair display'; 
+    font-weight:bold; 
+    font-size:20px;
+  }
+  .toko1 {
+    margin-right: -70%; 
+    font-family: 'playfair display'; 
+    font-weight:bold; 
+    font-size:20px;
+  }
+  @media (max-width: 991px) {
+      .notification {
+          display: none;
+      }
+      .btn1 {
+          padding: 0 180px;
+          margin-bottom: 20px;
+      }
+      .toko {
+          /* font-size: 15px; */
+          margin-right: -13%;
+          padding: 0;
+          /* background-color: black; */
+      }
+      .toko1 {
+ display: none;
+      }
+  }
+  @media (max-width: 767px) {
+      .btn1 {
+          padding: 0 120px;
+          margin-bottom: 5px;
+      }
+  }
+  .pencarian {
+      margin: 0 20%;
+      /* background-color: khaki; */
+  }
+  a {
+      text-decoration: none;
+  }
+  
+  .card {
+      height: 100%;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px rgb(185, 185, 185);
+  }
+  .card:hover {
+    box-shadow: 1px 2px 10px rgb(146, 146, 146);
+    transition: 0.5s ease;
+    transform: scale(1.05, 1.05);
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+  }
+  .card-body {
+      color: black;
+      /* background-color: blanchedalmond; */
+      height: fit-content;
+      border-radius: 0 0 10px 10px;
+  }
+  .card-body h5 {
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .card-body p{
+      font-size: 20px;
+      margin-bottom: 0;
+  }
+  @media (max-width: 768px) {
+    .card-body p{
+        font-size: 15px;
+    }
+    .card-body h5{
+        font-size: 15px;
+    }
+    .profile {
+        width: 10px;
+        height: 10px;
+    }
+    .dropdown .dropdown-toggle {
+        font-size: 15px;
+    }
+  }
+  @media (max-width: 570px) {
+      .card {
+          /* margin: 0 100px; */
+      }
+  }
+  .btn3{
+      width: 100%;
+      margin: 5% 0;
+  }
+input[type=submit] {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.dropdown-toggle {
+    margin-left: 3%;
+    color: black;
+    font-size: 20px;
+}
+
+.profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.navbar-brand{
+    width: 7%;
+    
+}
+#daftar {
+    margin: 0 30%;
+}
+.facebook-login{
+  height: 24px;
+}
+
+/* Produk CSS */
+.produk-btn {
+    font-family: 'source sans pro';
+    font-weight: 900;
+    color: #662D21;
+    background-color: #F9C600;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 3px 23px;
+}
+.produk-btn:hover {
+    color: #662D21;
+    background-color: white;
+    border: 1px solid #662D21;
+}
+.produk-menu {
+    background-color: transparent;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+
+.produk-card {
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgb(185, 185, 185);
+}
+.produk-card:hover {
+  box-shadow: 1px 1px 10px rgb(146, 146, 146);
+  transition: 0.7s ease;
+  transform: scale(1.05, 1.05);
+}
+.produk-card-img-top {
+  object-fit: scale-down;
+  width: 100%;
+  height: 200px;
+}
+.produk-card-body {
+    color: black;
+    /* background-color: blanchedalmond; */
+    height: fit-content;
+    border-radius: 0 0 10px 10px;
+}
+.produk-card-body h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.produk-card-body p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .produk-card-body p{
+      font-size: 15px;
+  }
+  .produk-card-body h5{
+      font-size: 15px;
+  }
+  .produk-isi .col img {
+    width: 70%;
+    margin: 0 14%;
+  }
+  .produk-isi .belanja{
+      margin: 5% 14%;
+  }
+  .produk-isi {
+      display: inherit;
+  }
+}
+
+.produk-isi img{
+    width: 80%;
+}
